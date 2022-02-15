@@ -1,47 +1,166 @@
-# Getting Started with InstaNews React App
+# InstaNews App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
-And All the app data is fetched from News.api
+InstaNews App is a news app which is created using **React.js** for user interface Api is fetched from [News APi](https://newsapi.org/).
 
-You Can generate your apiKey from News.api (https://newsapi.org/).
 
-## Create .env.local file
+## Demo
 
-In this file you can put : REACT_APP_NEWS_API = "Your ApiKey"
+    #Link of the app(to be updated)
 
-## Available Scripts
+![Application Demo](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Homepage.png)
+## Tech Stack
 
-In the project directory, you can run:
+**Client:** React JS
 
-### `npm start`
+**API:** [News APi](https://newsapi.org/)
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in the browser.
 
-The page will reload if you make edits.\
-You will also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+## Run Locally
 
-### `npm run build`
+Clone the project
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+```bash
+  git clone https://github.com/udit0012/InstaNews-app.git
+```
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+Go to the project directory
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+```bash
+  cd InstaNews-app
+```
 
-### `npm run eject`
+Install dependencies
 
-**Note: this is a one-way operation. Once you `eject`, you can’t go back!**
+```bash
+  npm install
+```
+Create a .env.local file in InstaNews-app directory.\
+Login to [NewsApi](https://newsapi.org/) and generate your Api key\
 
-If you aren’t satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Create a env variable - \
+REACT_APP_NEWS_API=your_api_key
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you’re on your own.
+Start the Client
 
-You don’t have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn’t feel obligated to use this feature. However we understand that this tool wouldn’t be useful if you couldn’t customize it when you are ready for it.
+```bash
+  npm start
+```
+
+
+
+## Features
+
+### Homepage
+![Home Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/HomePage.png)
+### Sidebar for Categorized news
+![Side bar](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Sidebar.png)
+### Category news
+![Science News](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Sciencenews.png)
+
+![Sports News](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Sports.png)
+
+
+
+## Made By
+
+[@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
+
+## Color Reference
+
+| Color             | Hex                                                                |
+| ----------------- | ------------------------------------------------------------------ |
+| appcolor | ![](https://via.placeholder.com/10/000000?text=+) #000000 |
+| success | ![](https://via.placeholder.com/10/009959?text=+) #009959 |
+| warning | ![](https://via.placeholder.com/10/ffc000?text=+) #ffc000 |
+| danger | ![](https://via.placeholder.com/10/ff0000?text=+) #ff0000 |
+
+## Demo
+
+    #Link of the app(to be updated)
+
+![Application Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/ChatPage.png)
+## Tech Stack
+
+**Client:** React JS
+
+**Server:** Node JS, Express JS
+
+**Database:** Mongo Database
+
+Browser <---> **Socket.io** <---> Node JS
+
+
+
+
+## Run Locally
+
+Clone the project
+
+```bash
+  git clone git@github.com:udit0012/LetsChat-App.git
+```
+
+Go to the project directory
+
+```bash
+  cd LetsChatapp
+```
+
+Install dependencies
+
+```bash
+  npm install
+```
+```bash
+  cd /frontend 
+  npm install
+```
+
+Start the Server
+
+```bash
+  npm run start
+```
+Start the Client
+
+```bash
+  //open new terminal
+  cd /frontend
+  npm start
+```
+
+
+
+## Features
+
+### Homepage
+![Home Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/HomePage.png)
+
+### Login
+![Login Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Login.png)
+### Register
+![Register Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/Register.png)
+
+### One to One Chat
+![Chat Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/ChatPage.png)
+### Add and remove group member
+![Group Details Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/GroupDetails.png)
+![Add Member Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/AddGroupMember.png)
+### Search Users
+![Search user Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/SearchSideDrawer.png)
+### Real time chatting with typing indicator
+![Typing Indicator Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/TypingIndicator.png)
+### Mobile Friendly
+![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChat.png)
+![Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/MChatBox.png)
+### View Other UserProfile
+![User Profile Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/UserProfile.png)
+
+
+
+## Made By
+
+[@UditGoyal (me_gtonochillz)](https://github.com/udit0012)
+
