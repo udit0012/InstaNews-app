@@ -53,7 +53,7 @@ Start the Client
 ## Features
 
 ### Homepage
-![Home Page Demo](https://github.com/udit0012/LetsChat-App/blob/main/Screenshots/HomePage.png)
+![Home Page Demo](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Homepage.png)
 ### Sidebar for Categorized news
 ![Side bar](https://github.com/udit0012/InstaNews-app/blob/main/Screenshots/Sidebar.png)
 ### Category news
