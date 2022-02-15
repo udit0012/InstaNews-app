@@ -56,7 +56,7 @@ const Sidemenu = (props) => {
             <div className="d-flex flex-column flex-shrink-0 p-3 text-white bg-dark position-absolute" style={{ width: "280px", height: "100vh", transition: ".3s", left: (!sidebar ? "-500px" : "0px") }}>
                 <div className="d-flex align-items-center">
                     <button key="2" className="btn p-1 d-flex me-2" onClick={sidebarhandler}><span className="material-icons text-light" style={{ fontSize: "35px", transition: ".6s", transform: (rotater ? "rotateZ(180deg)" : "") }}>close</span></button>
-                    <Link to="/general" className="text-white text-decoration-none">
+                    <Link to="/" className="text-white text-decoration-none">
                         <h2 className="fs-4">{props.apptitle}</h2>
                     </Link></div>
                 <hr />
